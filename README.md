@@ -1,72 +1,39 @@
-Hotel Booking AI Agent
-Final Database Project — AI Engineer Module
+# 📌 Hotel Booking — AI SQL Agent
 
-This project implements:
-✔ AI-powered SQL generator
-✔ Connection between Gemini → SQL → MySQL
-✔ Database analytics
-✔ Visualizations
-✔ Automated insights
+AI module for the team database project based on the *hotel_bookings* dataset.  
+It converts natural language questions into SQL, executes them on MySQL, and visualizes the results.
 
-🧠 Project Structure
+---
+
+## 🚀 Features
+- 🧠 Natural Language → SQL (Gemini API)  
+- 🗄 Executes queries on MySQL  
+- 📊 Displays results and charts  
+- 📈 Generates short analytical insights  
+
+---
+
+## 📂 Project Structure
 DB_Final_Project/
-│── ai_agent.ipynb       # Main notebook with AI agent
-│── data/
-│     └── hotel_bookings.csv
-│── database/
-│     └── mysql.sql      # Dump from SQL developer
-│── docs/
-│     └── erd.png        # ER diagram
-│── presentation/
-│     └── final_presentation.pdf
-│── requirements.txt
-│── README.md
-│── .gitignore
+├── ai_agent.ipynb
+├── data/hotel_bookings.csv
+├── database/mysql.sql
+├── docs/erd.png
+├── presentation/final_presentation.pdf
+└── requirements.txt
 
-🚀 AI Agent Capabilities
 
-✔ Converts natural language → SQL
-✔ Executes queries in MySQL
-✔ Cleans and validates SQL
-✔ Generates plots
-✔ Provides data insights
+---
 
-🛠 Technologies Used
+## ▶️ How to Run
+```bash
+venv\Scripts\activate
+pip install -r requirements.txt
+jupyter notebook ai_agent.ipynb
 
-Python
+👥 Team Roles
 
-Pandas
-
-SQLAlchemy
-
-PyMySQL
-
-Jupyter Notebook
-
-Gemini 2.5 Flash
-
-MySQL Workbench
-
-🗂 How to run
-
-1. Clone repository
-
-2. Create virtual environment
-
-3. Install requirements
-
-4. Add your Gemini API key
-
-5. Open ai_agent.ipynb in Jupyter
-
-6. Run all cells
-
-🎯 Authors (Team)
-
-Architect
-
-Analyst
-
+Database Architect
+Data Analyst
 SQL Developer
-
 AI Engineer
