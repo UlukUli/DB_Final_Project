@@ -52,9 +52,9 @@ pip install -r requirements.txt
 
 ---
 
-##👥 Team Roles
+## 👥 Team Roles
 
--Database Architect
--Data Analyst
--SQL Developer
--AI Engineer
+- Database Architect
+- Data Analyst
+- SQL Developer
+- AI Engineer
