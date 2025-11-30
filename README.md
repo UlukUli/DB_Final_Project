@@ -15,11 +15,17 @@ It converts natural language questions into SQL, executes them on MySQL, and vis
 
 ## 📂 Project Structure
 DB_Final_Project/
+
 ├── ai_agent.ipynb
+
 ├── data/hotel_bookings.csv
+
 ├── database/mysql.sql
+
 ├── docs/erd.png
+
 ├── presentation/final_presentation.pdf
+
 └── requirements.txt
 
 
