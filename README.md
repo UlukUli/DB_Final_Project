@@ -31,6 +31,7 @@ DB_Final_Project/
 
 ---
 
+
 ## 🛠️ Tech Stack
 - **Python 3.11**  
 - **MySQL + Workbench**  
@@ -53,7 +54,7 @@ pip install -r requirements.txt
 
 ##👥 Team Roles
 
-Database Architect
-Data Analyst
-SQL Developer
-AI Engineer
+-Database Architect
+-Data Analyst
+-SQL Developer
+-AI Engineer
