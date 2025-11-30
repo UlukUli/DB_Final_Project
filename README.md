@@ -31,11 +31,24 @@ DB_Final_Project/
 
 ---
 
-## ▶️ How to Run
+## 🛠️ Tech Stack
+- **Python 3.11**  
+- **MySQL + Workbench**  
+- **SQLAlchemy + PyMySQL**  
+- **Google Gemini API**  
+- **Pandas, Matplotlib**  
+- **Jupyter Notebook**  
+
+---
+
+## 🚀 How to Run the Project
+
+### 1️⃣ Install dependencies
 ```bash
-venv\Scripts\activate
+python -m venv venv
+venv\Scripts\activate     # Windows
 pip install -r requirements.txt
-jupyter notebook ai_agent.ipynb
+
 
 👥 Team Roles
 
