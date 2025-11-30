@@ -49,12 +49,3 @@ DB_Final_Project/
 python -m venv venv
 venv\Scripts\activate     # Windows
 pip install -r requirements.txt
-
----
-
-## 👥 Team Roles
-
-- Database Architect
-- Data Analyst
-- SQL Developer
-- AI Engineer
