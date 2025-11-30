@@ -50,7 +50,7 @@ venv\Scripts\activate     # Windows
 pip install -r requirements.txt
 
 
-👥 Team Roles
+👥 ##Team Roles
 
 Database Architect
 Data Analyst
