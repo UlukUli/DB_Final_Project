@@ -1,7 +1,9 @@
 pandas
-sqlalchemy
-pymysql
+numpy
 matplotlib
 seaborn
+sqlalchemy
+pymysql
+python-dotenv
 google-generativeai
 jupyter
