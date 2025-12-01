@@ -1,0 +1,54 @@
+Dataset: Hotel booking demand
+
+Sourse: https://www.kaggle.com/datasets/jessemostipak/hotel-booking-demand
+This data set contains:
+- ~100 000 booking records
+- 32 columns
+- booking information 
+The data is originally from the article Hotel Booking Demand Datasets, written by Nuno Antonio, Ana Almeida, and Luis Nunes for Data in Brief, Volume 22, February 2019.
+
+The data was downloaded and cleaned by Thomas Mock and Antoine Bichat for #TidyTuesday during the week of February 11th, 2020.
+
+The dataset contains:
+- ~100 000 booking records
+- 32 columns
+- information about guests, booking dates, room types, cancellations, ADR (average daily rate), meal plans, and hotel type.
+
+This dataset was chosen because:
+- it is realistic (used in hotel industry research),
+- it contains rich booking behavior,
+- it is useful for AI-driven business analytics.
+
+
+  Field    -----    Meaning 
+ • hotel — The type of hotel (City Hotel / Resort Hotel).
+ • is_canceled — Whether the booking was canceled (1 = yes, 0 = no).
+ • lead_time — Number of days between the booking date and the arrival date.
+ • arrival_date_year — Year of the guest’s arrival.
+ • arrival_date_month — Month of arrival.
+ • arrival_date_week_number — Week number of the year (1–52).
+ • arrival_date_day_of_month — Day of the month (1–31).
+ • stays_in_weekend_nights — Number of weekend nights in the stay.
+ • stays_in_week_nights — Number of weekday nights in the stay.
+ • children — Number of children.
+ • babies — Number of infants.
+ • meal — Type of meal plan (BB = breakfast, HB = half-board, SC = no meals, etc.).
+ • country — Guest’s country of residence.
+ • market_segment — Market segment (e.g., Online Travel Agency, Corporate, Direct).
+ • distribution_channel — Booking channel (e.g., TA, Direct, GDS).
+ • is_repeated_guest — Whether the guest has stayed before (1 = yes, 0 = no).
+ • previous_cancellations — Number of previous bookings this guest canceled.
+ • previous_bookings_not_canceled — Number of past successful stays (not canceled).
+ • reserved_room_type — The room type that the guest booked originally.
+ • assigned_room_type — The room type actually assigned at check-in.
+ • booking_changes — How many times the booking was modified.
+ • deposit_type — Whether the guest paid a deposit and what type (No, Non-Refund, Refundable).
+ • agent — ID of the booking agent.
+ • company — ID of the company making the booking (if any).
+ • days_in_waiting_list — How many days the booking remained on the waiting list.
+ • customer_type — Type of customer (Transient, Group, Contract, etc.).
+ • adr — ADR (Average Daily Rate) — price per night for the stay.
+ • required_car_parking_spaces — Number of parking spaces the guest requested.
+ • total_of_special_requests — Total number of special requests (e.g., extra pillows, higher floor).
+ • reservation_status — Final status: Checked-Out, Canceled, No-Show.
+ • reservation_status_date — The date when the reservation status was updated.
