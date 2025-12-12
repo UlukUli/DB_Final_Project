@@ -8,7 +8,7 @@ FROM bookings
 GROUP BY arrival_date_month
 ORDER BY bookings DESC;
 
-hich season is the most profitable?
+Which season is the most profitable?
 SELECT arrival_date_month, SUM(adr * (stays_in_weekend_nights + stays_in_week_nights)) AS revenue
 FROM bookings
 GROUP BY arrival_date_month
